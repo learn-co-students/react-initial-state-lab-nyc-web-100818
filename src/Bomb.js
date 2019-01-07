@@ -13,6 +13,6 @@ export default class Bomb extends Component {
         ? 'Boom!'
         : `${this.state.secondsLeft} seconds left before I go boom!`
 
-    return <div>{threat}</div>
+    return(<div>{threat}</div>
   }
 }
